@@ -112,7 +112,10 @@ nav a {
 }
 
 /* main saction styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section style */
 
 .about {
@@ -123,3 +126,11 @@ nav a {
 
 }
 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+
+}
